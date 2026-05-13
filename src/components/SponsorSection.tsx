@@ -16,7 +16,7 @@ const TIERS = [
       'Shoutout on Instagram & TikTok',
     ],
     subject: 'Bronze%20Sponsorship%20%E2%80%94%20James%20Devereux%20Racing',
-    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Bronze%20sponsorship%20(%C2%A3100%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
+    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Bronze%20sponsorship%20(%C2%A3600%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
   },
   {
     icon: Zap,
@@ -32,7 +32,7 @@ const TIERS = [
       'Named in press releases & race reports',
     ],
     subject: 'Silver%20Sponsorship%20%E2%80%94%20James%20Devereux%20Racing',
-    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Silver%20sponsorship%20(%C2%A3400%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
+    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Silver%20sponsorship%20(%C2%A32000%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
   },
   {
     icon: Trophy,
@@ -48,7 +48,7 @@ const TIERS = [
       'European Championship exposure',
     ],
     subject: 'Gold%20Sponsorship%20%E2%80%94%20James%20Devereux%20Racing',
-    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Gold%20sponsorship%20(%C2%A3800%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
+    body: 'Hi%2C%0A%0AI%27m%20interested%20in%20the%20Gold%20sponsorship%20(%C2%A34000%2Fmonth).%0A%0AMy%20name%3A%0AMy%20business%3A%0A%0ALooking%20forward%20to%20hearing%20from%20you.',
   },
 ];
 
