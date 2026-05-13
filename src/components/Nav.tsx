@@ -51,7 +51,7 @@ export default function Nav() {
               James Devereux
             </div>
             <div className="text-[11px] tracking-[0.2em] text-white/75 uppercase">
-              Rotax Mini Max · #146
+              Rotax Inter Minimax · #146
             </div>
           </div>
         </div>

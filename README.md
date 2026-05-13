@@ -1,1 +1,1 @@
-Foundations to a Karting Racing Website
+Karting Racing Website

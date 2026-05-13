@@ -126,7 +126,7 @@ export default function Footer() {
             <div className="mt-8 border border-[#00F5FF]/20 p-4">
               <div className="text-[10px] tracking-[0.25em] text-[#00F5FF] uppercase mb-2 font-medium">⭐ Sponsorship wanted</div>
               <p className="text-[11px] text-white/80 leading-relaxed mb-3">
-                Help James compete at national level. From £160 a tyre set to full season title partnerships.
+                Help James compete at national level. From tyre sets to full season title partnerships.
               </p>
               <a href={`mailto:${driverStats.social.sponsorEmail}?subject=Sponsorship%20Enquiry`}
                 className="text-[10px] tracking-[0.2em] text-[#00F5FF] uppercase hover:text-white transition-colors flex items-center gap-1">
