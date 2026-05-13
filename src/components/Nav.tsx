@@ -23,13 +23,13 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { label: "2026 Season", href: "#season" },
-    { label: "Meetings", href: "#meetings" },
-    { label: "Stats", href: "#stats" },
-    { label: "Team", href: "#team" },
-    { label: "Calendar", href: "#calendar" },
-    { label: "Sponsor", href: "#sponsor" },
-    { label: "Contact", href: "#contact" },
+    { label: "2026 Season", href: "#season", highlight: false },
+    { label: "Meetings", href: "#meetings", highlight: false },
+    { label: "Stats", href: "#stats", highlight: false },
+    { label: "Team", href: "#team", highlight: false },
+    { label: "Calendar", href: "#calendar", highlight: false },
+    { label: "Contact", href: "#contact", highlight: false },
+    { label: "⭐ Sponsor", href: "#sponsor", highlight: true },
   ];
 
   return (
@@ -62,7 +62,11 @@ export default function Nav() {
             <a
               key={l.label}
               href={l.href}
-              className="text-[11px] tracking-[0.25em] text-white/80 hover:text-[#00F5FF] uppercase transition-colors duration-200"
+              className={`text-[11px] tracking-[0.25em] uppercase transition-colors duration-200 ${
+                l.highlight
+                  ? "text-[#00F5FF] font-black border border-[#00F5FF]/40 px-3 py-1.5 hover:bg-[#00F5FF] hover:text-[#080808]"
+                  : "text-white/80 hover:text-[#00F5FF]"
+              }`}
             >
               {l.label}
             </a>
@@ -110,7 +114,11 @@ export default function Nav() {
               key={l.label}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="text-[12px] tracking-[0.25em] text-white/80 hover:text-[#00F5FF] uppercase transition-colors"
+              className={`text-[12px] tracking-[0.25em] uppercase transition-colors ${
+                l.highlight
+                  ? "text-[#00F5FF] font-black"
+                  : "text-white/80 hover:text-[#00F5FF]"
+              }`}
             >
               {l.label}
             </a>

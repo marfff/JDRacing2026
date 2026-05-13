@@ -146,6 +146,16 @@ export default function Footer() {
             Created with ♥ by MGD
           </span>
         </div>
+        <div className="pt-4 text-center">
+          <a
+            href="https://www.gofundme.com/f/keep-james-on-track-mini-max-uk-european-dream-2026"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[10px] text-white/20 hover:text-white/40 transition-colors tracking-wider"
+          >
+            Support James on GoFundMe ↗
+          </a>
+        </div>
       </div>
     </footer>
   );

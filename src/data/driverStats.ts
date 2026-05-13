@@ -15,8 +15,8 @@ export const driverStats = {
     instagram: "https://www.instagram.com/jamesdevereuxracing/",
     facebook: "https://facebook.com/jdracing.2025",
     tiktok: "https://www.tiktok.com/@jamesdevereux46",
-    email: "frizzler@icloud.com",
-    sponsorEmail: "frizzler@icloud.com",
+    email: "frizzler1@icloud.com",
+    sponsorEmail: "frizzler1@icloud.com",
   },
 
   keyIndicators: {
@@ -90,5 +90,5 @@ export const socialLinks = {
   instagram: "https://www.instagram.com/jamesdevereuxracing/",
   facebook: "https://facebook.com/jdracing.2025",
     tiktok: "https://www.tiktok.com/@jamesdevereux46",
-  email: "frizzler@icloud.com",
+  email: "frizzler1@icloud.com",
 };
